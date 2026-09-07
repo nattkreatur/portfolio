@@ -1,0 +1,25 @@
+/*Grund: Mobile first*/
+.wrapper{
+    display: grid;
+    grid-template-rows: auto auto 1fr auto;
+}
+header{
+    background-color: grey;
+    
+    /*Orienterar adressfältet under img och rubriker*/
+    display: flex;
+    flex-direction: column;
+}
+
+
+header > div{
+    /*Orienterar img och rubriker på en rad*/
+    display: flex;
+    flex-direction: row;
+}
+
+img{
+    max-width: 20%;
+    height: auto;
+    border-radius: 50%;
+}
