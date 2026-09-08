@@ -4,8 +4,11 @@
     grid-template-rows: auto auto 1fr auto;
     margin: 0 auto;
     gap: 1rem;
-    border: 2px solid #5C7E8F;
-
+    border: 4px solid #5C7E8F;
+    border-radius: 2rem;
+    border-top-left-radius: 0rem;
+    /*Döljer element som sticker ut utanför wrappern*/
+    overflow: hidden;
     /*Storlek*/
     min-height: 97vh; /*strax under full viewport, håller footer vid botten av webbläsaren*/
     width: 90%;
@@ -32,8 +35,11 @@ header > div{
     
 }
 header > address{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #5C7E8F;
-    border-radius: 5%;
+    border-radius: 2rem;
     padding: 0.5rem;
 }
 
@@ -42,14 +48,15 @@ img{
     height: auto;
     /*Håller rimlig storlek även på stora skärmar*/
     max-width:300px; 
-
+    border: 2px solid #5C7E8F;
     border-radius: 50%;
+    border-bottom-right-radius: 0%;
 }
 
 nav{
     display: flex;
     justify-content: center;
-    background-color: yellowgreen;
+    background-color:#5C7E8F;
 }
 main{
     /*avstånd mellan sections i main*/
@@ -65,7 +72,7 @@ section{
 }
 article{
     background-color: #D4DDE2;
-    border-radius: 5%;
+    border-radius: 1rem;
     padding: 0.5rem;
     
 }
@@ -73,13 +80,15 @@ article{
 footer{
     display: flex;
     justify-content: center;
-    background-color: yellowgreen;
+    background-color:#5C7E8F;
 }
 
 /*Egenskaper för text, rubriker, osv*/
 h2{
     color:#FFFF;
     background-color: #5C7E8F;
+    padding: 0.5rem;
+    border-radius: 1rem;
 }
 
 /*Större skärmar*/
