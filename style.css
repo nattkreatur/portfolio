@@ -2,24 +2,93 @@
 .wrapper{
     display: grid;
     grid-template-rows: auto auto 1fr auto;
-}
-header{
-    background-color: grey;
+    margin: 0 auto;
+    gap: 1rem;
+    border: 2px solid #5C7E8F;
+
+    /*Storlek*/
+    min-height: 97vh; /*strax under full viewport, håller footer vid botten av webbläsaren*/
+    width: 90%;
+    max-width: 1000px;/*stoppar gigantisk wrapper på stora skärmar*/
     
+}
+
+/*Sidan i den ordning elementen kommer i html*/
+header{
+    background-color: #A2A2A2;
     /*Orienterar adressfältet under img och rubriker*/
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
 }
-
-
 header > div{
     /*Orienterar img och rubriker på en rad*/
     display: flex;
     flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    
+    
+}
+header > address{
+    background-color: #5C7E8F;
+    border-radius: 5%;
+    padding: 0.5rem;
 }
 
 img{
-    max-width: 20%;
+    width: 40%;
     height: auto;
+    /*Håller rimlig storlek även på stora skärmar*/
+    max-width:300px; 
+
     border-radius: 50%;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: yellowgreen;
+}
+main{
+    /*avstånd mellan sections i main*/
+    display: grid;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+section{
+    /*avstånd mellan articles i section*/
+    display: grid;
+    gap: 1rem;
+}
+article{
+    background-color: #D4DDE2;
+    border-radius: 5%;
+    padding: 0.5rem;
+    
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: yellowgreen;
+}
+
+/*Egenskaper för text, rubriker, osv*/
+h2{
+    color:#FFFF;
+    background-color: #5C7E8F;
+}
+
+/*Större skärmar*/
+@media (min-width: 600px){
+    header{
+        flex-direction: row;
+    }
+    main{
+        display: flex;
+        flex-direction: row;
+    }
 }
