@@ -1,0 +1,15 @@
+Att göra
+
+Styling
+[ ] Flytta upp h2orna i article
+[ ] Styla länkar att se ut som knappar
+[ ] Välja typsnitt
+[ ] Välja backuptypsnitt
+
+Praktiskt
+[ ] Skriva innehåll
+[ ] Skapa portfoliosidan
+[ ] Länka relevanta projekt till portfolio
+
+Annat
+[ ] Skriva reflektion
