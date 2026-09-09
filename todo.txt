@@ -2,9 +2,17 @@ Att göra
 
 Styling
 [ ] Flytta upp h2orna i article
-[ ] Styla länkar att se ut som knappar
-[ ] Välja typsnitt
-[ ] Välja backuptypsnitt
+[x] Gap mellan profilbild och adress-fält i mobile only
+[x] Styla länkar att se ut som knappar
+    [x]Täppa mellanrummet mellan nav och header
+    [x]Ändra färgerna för aktiv länk kanske
+    [x]Ta bort dubbelkant
+[ ] Styla länkar i adressfält
+[x] Välja typsnitt
+[x] Välja backuptypsnitt
+[ ] Egen styling för h1 i header samt underliggande <p>
+[ ] Uppdatera title mm på portfolio sidan
+[ ] Marginaljusterad text
 
 Praktiskt
 [ ] Skriva innehåll
