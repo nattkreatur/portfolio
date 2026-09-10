@@ -82,7 +82,13 @@ article{
     background-color: #D4DDE2;
     border-radius: 1rem;
     padding: 0.5rem;
-    
+}
+section > article > img{
+    width: 80%;
+    height: auto;
+    /*Centrerar bilden*/
+    display: block;
+    margin-inline: auto;
 }
 
 footer{
@@ -233,5 +239,10 @@ dessa kollapsar innehållet och blir oläsligt*/
     }
     body{
         margin: 0;
+    }
+    /*Får länkarna att wrappa. Utan detta kraschar responsiviteten vid 300px
+    Med detta fungerar responsiviteten felfritt ända ner till 230px width*/
+    address > ul > li > a{
+    overflow-wrap: anywhere;
     }
 }
