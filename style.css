@@ -123,6 +123,14 @@ h2{
     /*Flyttar upp h2 lite*/
     margin-top: 0rem;
 }
+/*Enbart inuti article*/
+h3{
+    color: #5C7E8F;
+    margin-bottom: 0rem;
+}
+article > p{
+    margin-top: 0rem;
+}
 
 /*Egenskaper Länkar och Nav*/
 a, address > ul > li{
@@ -177,6 +185,17 @@ address > ul > li > a > img{
     height: auto;
     /*Litet gap mellan dekorativ bild och länktext*/
     margin-right: 0.5rem;
+}
+/*Portfoliolänkar*/
+section > article > p > a{
+    padding-block: 0.2rem;
+    font-family: inherit;
+    font-weight: 800;
+    color: #5C7E8F;
+}
+section > article > p > a:hover{
+    text-decoration:underline;
+    color: #FFFF;
 }
 
 /*Större skärmar*/

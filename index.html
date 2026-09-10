@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
 </head>
+
 <body id="cv"><!--ID behövs som referens för nav-länkar i CSS-->
     <div class="wrapper">
         <header>
@@ -21,28 +22,31 @@
                     <p>.NET-utvecklare</p>
                 </div>
             </div>
-                <address>
-                    <ul>
-                        <li>
-                            <a href="mailto:oskar.boberg@gmail.com">
-                                <img src="/img/icons/mailwhite.svg" alt=""><!--Enbart dekorativ bild, a-tagg innehåller tillräcklig information för tillgänglighet-->
-                                oskar.boberg@gmail.com
-                            </a>
-                        </li>
-                        <li>
-                            <a href="tel:+46700799202">
-                                <img src="/img/icons/phonewhite.svg" alt="">
-                                +46700799202
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.github.com/nattkreatur/">
-                                <img src="/img/icons/GitHub_Invertocat_White.svg" alt="">
-                                Github
-                            </a>
-                        </li>
-                    </ul>
-                </address>
+            <address>
+                <ul>
+                    <li>
+                        <a href="mailto:oskar.boberg@gmail.com">
+                            <img src="/img/icons/mailwhite.svg"
+                                alt=""><!--Enbart dekorativ bild, a-tagg innehåller tillräcklig information för tillgänglighet-->
+                            oskar.boberg@gmail.com
+                        </a>
+                    </li>
+                    <li>
+                        <a href="tel:+46700799202">
+                            <img src="/img/icons/phonewhite.svg" alt="">
+                            +46700799202
+                        </a>
+                    </li>
+                    <li>
+                        <!--target _blank öppnar länk som ny flik-->
+                        <!--Noopener skyddar användare av äldre browsers mot en potentiell exploit-->
+                        <a href="https://www.github.com/nattkreatur/" target="_blank" rel="noopener">
+                            <img src="/img/icons/GitHub_Invertocat_White.svg" alt="">
+                            Github
+                        </a>
+                    </li>
+                </ul>
+            </address>
         </header>
         <nav>
             <a href="./index.html">CV</a>
@@ -52,30 +56,61 @@
             <section>
                 <article>
                     <h2>Om mig</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab fugiat molestias sint rerum necessitatibus?
-                        Esse officia earum delectus, quos eos libero, beatae, corrupti doloremque perferendis recusandae
-                        excepturi alias quia velit!</p>
+                    <p>Jag är en aktiv herre som ofta har många bollar i luften. Jag är pappa till två barn och
+                        datorintresset har jag med mig från
+                        barnsben då jag växte upp under IT-revolutionen. Detta har dock inte hindrat mig från ett aktivt
+                        friluftsliv där mycket tid har spenderats med såväl bergsklättring som triathlon och
+                        längdskidåkning.</p>
+                    <p>Jag är en rak och kommunikativ person som har vana att arbeta både självständigt och i grupp. Jag
+                        kan vara ganska analytisk och gillar att jobba kreativt och med problemlösning.</p>
+                    <p>
+                        På fritiden tycker jag om att ha något projekt att jobba med, jag håller exmpelvis på och lär
+                        mig
+                        spelprogrammering i Unity Engine men det kan vara annat också, som en konsolapp i Python.
+                    </p>
                 </article>
                 <article>
                     <h2>Erfarenhet</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab fugiat molestias sint rerum necessitatibus?
-                    Esse officia earum delectus, quos eos libero, beatae, corrupti doloremque perferendis recusandae
-                    excepturi alias quia velit!</p>
-                <article></article>
+                    <h3>Adapteo AB Centrallager (2016-nuvarande)</h3>
+                    <p>Nuvarande anställning som jag är tjänstledig från. Adapteo är en av nordens största
+                        aktörer inom flyttbara lokaler. Ett självständigt arbete där jag har varit ansvarig för
+                        returhantering och försäljning av
+                        överskottsmaterial. Jag har både haft kundkontakt, arbetat med lagerföring av material i
+                        IT-system, transportbokning samtidigt som jag har arbetat rent praktiskt med truck och
+                        andra lagersysslor.
+                    </p>
+                    <h3>Uniflex, Proffice, Diamant (2011-2016)</h3>
+                    <p>
+                        Olika bemanningsjobb inom industri och lager. Exempelvis orderplockare på Elgiganten Logistics.
+                        Montör av Husqvarna motorsågar.
+                        Butikssäljare inom Beijer Bygghandel. Truckförare hos DB Schenker, och Postnord.
+                    </p>
+                    <h3>KFUM-gården Vidablick (2009-2011)</h3>
+                    <p>Instruktör/kursledare på KFUM's kursgård i Bankeryd. Socialt arbete där jag har tagit emot
+                        grupper och lett och planerat pedagogiska övningar samt instruerat i klättring, kanoting, mfl.</p>
                 </article>
             </section>
             <section>
-                <article>            
+                <article>
                     <h2>Utbildning</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab fugiat molestias sint rerum necessitatibus?
-                        Esse officia earum delectus, quos eos libero, beatae, corrupti doloremque perferendis recusandae
-                        excepturi alias quia velit!</p>
+                    <h3>Webbutvecklare .NET (2026-pågående)</h3>
+                    <p>.NET-utbildning på yrkeshögskolenivå som anordnas av Campus Värnamo och Jönköping University.
+                        Vi arbetar med
+                        backend i C#/.NET och frontend i Typescript/React. Utbildningen ger fullstackkompetens.</p>
+                    <h3>Nätverkstekniker (2025)</h3>
+                    <p>Yrkesutbildning som anordnades av Borås stad och Astar AB. På utbildningen lärde vi oss om
+                        grundläggande nätverkskoncept såsom datakommunikation, OSI-modellen, kryptering,
+                        internetprotokoll, mm. Vi
+                        arbetade med Windows Server, virtualisering, routing, VLAN, mm.</p>
                 </article>
                 <article>
                     <h2>Kompetenser</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab fugiat molestias sint rerum necessitatibus?
-                        Esse officia earum delectus, quos eos libero, beatae, corrupti doloremque perferendis recusandae
-                        excepturi alias quia velit!</p>
+                    <h3>Huvudspråk</h3>
+                    <p>C#<br>Javascript/Typescript<br>HTML/CSS.</p>
+                    <h3>Sekundära språk</h3>
+                    <p>Python</p>
+                    <h3>Övriga kompetenser</h3>
+                    <p>Unity Engine<br>Nätverksteknik</p>
                 </article>
             </section>
         </main>
@@ -84,4 +119,5 @@
         </footer>
     </div>
 </body>
+
 </html>

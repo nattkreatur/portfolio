@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
 </head>
+
 <body id="portfolio"><!--ID behövs som referens för nav-länkar i CSS-->
     <div class="wrapper">
         <header>
@@ -21,28 +22,31 @@
                     <p>.NET-utvecklare</p>
                 </div>
             </div>
-                <address>
-                    <ul>
-                        <li>
-                            <a href="mailto:oskar.boberg@gmail.com">
-                                <img src="/img/icons/mailwhite.svg" alt=""><!--Enbart dekorativ bild, a-tagg innehåller tillräcklig information för tillgänglighet-->
-                                oskar.boberg@gmail.com
-                            </a>
-                        </li>
-                        <li>
-                            <a href="tel:+46700799202">
-                                <img src="/img/icons/phonewhite.svg" alt="">
-                                +46700799202
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.github.com/nattkreatur/">
-                                <img src="/img/icons/GitHub_Invertocat_White.svg" alt="">
-                                Github
-                            </a>
-                        </li>
-                    </ul>
-                </address>
+            <address>
+                <ul>
+                    <li>
+                        <a href="mailto:oskar.boberg@gmail.com">
+                            <img src="/img/icons/mailwhite.svg"
+                                alt=""><!--Enbart dekorativ bild, a-tagg innehåller tillräcklig information för tillgänglighet-->
+                            oskar.boberg@gmail.com
+                        </a>
+                    </li>
+                    <li>
+                        <a href="tel:+46700799202">
+                            <img src="/img/icons/phonewhite.svg" alt="">
+                            +46700799202
+                        </a>
+                    </li>
+                    <li>
+                        <!--target _blank öppnar länk som ny flik-->
+                        <!--Noopener skyddar användare av äldre browsers mot en potentiell exploit-->
+                        <a href="https://www.github.com/nattkreatur/" target="_blank" rel="noopener">
+                            <img src="/img/icons/GitHub_Invertocat_White.svg" alt="">
+                            Github
+                        </a>
+                    </li>
+                </ul>
+            </address>
         </header>
         <nav>
             <a href="./index.html">CV</a>
@@ -51,31 +55,32 @@
         <main>
             <section>
                 <article>
-                    <h2>Om mig</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab fugiat molestias sint rerum necessitatibus?
-                        Esse officia earum delectus, quos eos libero, beatae, corrupti doloremque perferendis recusandae
-                        excepturi alias quia velit!</p>
+                    <h2>Webbsida: CV/Portfolio</h2>
+                    <p>Teknik: Vanilla HTML och CSS</p>
+                    <p>Under min utbildning till .NET-utvecklare via JU/Campus Värnamo fick jag i uppdrag att bygga en
+                        responsiv sida för CV och portfolio. Det är just denna sidan du nu besöker. 
+                    </p>
+                    <p>Följ denna
+                        <a href="https://github.com/nattkreatur/portfolio" target="_blank" rel="noopener">länk</a>
+                        för källkod på Github.
+                    </p>
                 </article>
                 <article>
-                    <h2>Erfarenhet</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab fugiat molestias sint rerum necessitatibus?
-                    Esse officia earum delectus, quos eos libero, beatae, corrupti doloremque perferendis recusandae
-                    excepturi alias quia velit!</p>
-                <article></article>
-                </article>
-            </section>
-            <section>
-                <article>            
-                    <h2>Utbildning</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab fugiat molestias sint rerum necessitatibus?
-                        Esse officia earum delectus, quos eos libero, beatae, corrupti doloremque perferendis recusandae
-                        excepturi alias quia velit!</p>
-                </article>
-                <article>
-                    <h2>Kompetenser</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab fugiat molestias sint rerum necessitatibus?
-                        Esse officia earum delectus, quos eos libero, beatae, corrupti doloremque perferendis recusandae
-                        excepturi alias quia velit!</p>
+                    <h2>Datorspel: Bouncy Cat</h2>
+                    <p>Teknik: Python och ramverket Pyxel</p>
+                    <p>När jag studerade Nätverksteknik sommaren 2025 lekte jag lite med Python på min fritid och gjorde
+                        ett lite enklare datorspel. Spelet är en typ av endless runner där man spelar som en katt som
+                        studsar sig genom världen. Spelet går ut på att överleva sålänge som möjligt utan att krocka
+                        med varken föremål eller djur.</p>
+                    <p>
+                        Spelet är mitt första objektorienterade program.
+                        Artwork och animationer har jag gjort själv. Jag valde att låta spelet vara utan musik och ljud.
+                    </p>
+                    <p>Följ denna
+                        <a href="https://github.com/nattkreatur/Bouncy-Cat" target="_blank" rel="noopener">länk</a>
+                        för källkod på Github.
+                    </p>
+                    <article></article>
                 </article>
             </section>
         </main>
@@ -84,4 +89,5 @@
         </footer>
     </div>
 </body>
+
 </html>
