@@ -1,23 +1,28 @@
 Att göra
 
 Styling
-[ ] Flytta upp h2orna i article
+[x] Flytta upp h2orna i article
 [x] Gap mellan profilbild och adress-fält i mobile only
 [x] Styla länkar att se ut som knappar
     [x]Täppa mellanrummet mellan nav och header
     [x]Ändra färgerna för aktiv länk kanske
     [x]Ta bort dubbelkant
-[ ] Styla länkar i adressfält
+[x] Styla länkar i adressfält
 [x] Välja typsnitt
 [x] Välja backuptypsnitt
-[ ] Egen styling för h1 i header samt underliggande <p>
-[ ] Uppdatera title mm på portfolio sidan
-[ ] Marginaljusterad text
+[x] Egen styling för h1 i header samt underliggande <p>
+[x] Uppdatera title mm på portfolio sidan
+[x] Marginaljusterad text
+[ ] Övre vänstra sidan av alla boxar kantig istället för rundad???
+[x] Gap mellan dekorativ bild och länkttext
+
+Responsivitet
+[x] Lös responsivitetsproblem på extremt små skärmar(under 340px bredd)
 
 Praktiskt
-[ ] Skriva innehåll
-[ ] Skapa portfoliosidan
-[ ] Länka relevanta projekt till portfolio
+[x] Skriva innehåll
+[x] Skapa portfoliosidan
+[x] Länka relevanta projekt till portfolio
 
 Annat
 [ ] Skriva reflektion
