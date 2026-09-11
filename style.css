@@ -104,10 +104,6 @@ Egenskaper för text, rubriker, osv//
 body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-p{
-    /*marginaljusterad text*/
-    text-align: justify;
-}
 h1{
     /*Inlänkad från Google-font, se head i html*/
     font-family: "Caveat", cursive, 'Lucida Sans', Verdana, sans-serif;
@@ -227,6 +223,10 @@ section > article > p > a:hover{
     }
     header > address{
         margin-top: 0rem;
+    }
+    p{
+    /*marginaljusterad text endast för desktop då långa ord orsakade stora luckor i texten på mobila enheter som inte såg bra ut*/
+    text-align: justify;
     }
 }
 /*Justeringer för extremt små skärmar utan

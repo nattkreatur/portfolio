@@ -25,4 +25,4 @@ Praktiskt
 [x] Länka relevanta projekt till portfolio
 
 Annat
-[ ] Skriva reflektion
+[x] Skriva reflektion
